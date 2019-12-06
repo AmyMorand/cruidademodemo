@@ -24,7 +24,7 @@ html {}
 }
 
 body {
-    background-image: url(../images/back.jpg) !important;
+    background-image: url(../images/cruidabackgroundasset.jpg) !important;
     background-repeat:repeat;
     line-height: 1.5;
     margin: 0 auto;
@@ -155,8 +155,8 @@ samp {
 }
 
 .btn-primary {
-    background-color: #acdddd !important;
-    border-color: #acdddd !important;
+    background-color: #a30000 !important;
+    border-color: #a30000 !important;
 
 
 }
@@ -375,7 +375,7 @@ span.psw {
 
 
 #con {
-    background-color: #acdddd;
+    background-color: #a30000;
     padding: 25px;
     border: 0px;
     width: 50%;
@@ -423,7 +423,7 @@ span.psw {
 }
 
 #pur {
-    background-color: #acdddd;
+    background-color: #000;
     padding-left: 100px;
     padding-right:100px;
 }
