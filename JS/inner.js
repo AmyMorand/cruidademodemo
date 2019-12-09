@@ -1,7 +1,7 @@
 function check(form)
 {
 
-if(form.pwd.value == "URj974")
+if(form.pwd.value == "2RSTNK31")
 {
 	return true;
 }

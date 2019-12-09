@@ -2,7 +2,7 @@ html {}
 
 .navbar {
     overflow: hidden !important;
-    background-color: #333;
+    background-color: #000;
     position: fixed !important;
     z-index: 5 !important;
     width: 100% !important;
@@ -11,7 +11,7 @@ html {}
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2 !important;
+    color: #a30000 !important;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none !important;
@@ -19,15 +19,16 @@ html {}
 }
 
 .navbar a:hover {
-    background: #ddd;
+    background: #ff0000;
     color: black !important;
 }
 
 body {
     background-image: url(../images/cruidabackgroundasset.jpg) !important;
-    background-repeat:repeat;
+    background-repeat: repeat;
     line-height: 1.5;
     margin: 0 auto;
+    font-family: monospace;
 }
 
 #headerbox {
@@ -40,6 +41,7 @@ body {
     height: 100%;
     width: 100% !important;
     margin-bottom: 20px;
+    font-family: monospace;
 }
 
 
@@ -53,11 +55,12 @@ body {
     height: 100%;
     width: 100% !important;
     margin-bottom: 20px;
+    font-family: monospace;
 }
 
 
 
-/* !!!!!!!!!!!!!!CHANGE TO THE REAL GIF!!!!!!!!!!!!!!! */
+
 
 #cruidagif {
     display: block;
@@ -69,10 +72,12 @@ body {
 
 h1 {
     text-align: center;
+    font-family: monospace;
 }
 
 #toph2 {
     text-align: center;
+    font-family: monospace;
 }
 
 #aboutsection {
@@ -82,6 +87,7 @@ h1 {
     display: flex;
     align-items: center;
     width: 100%;
+    font-family: monospace;
 }
 
 #aboutusplaceholderimg {
@@ -89,12 +95,11 @@ h1 {
     height: auto;
     display: block;
     border-radius: 5px;
-    cursor: pointer;
     transition: 0.3s;
     padding: 10px;
-    padding-left: 15px; 
+    padding-left: 15px;
     padding-right: 15px;
-    background-color: #acdddd;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #patientplaceholderimg1 {
@@ -130,19 +135,23 @@ h1 {
     margin-top: 20px !important;
     margin-bottom: 20px !important;
     font-size: 17px !important;
+    font-family: monospace;
 }
 
 #headers {
     text-align: center;
     font-size: 50px;
+    font-family: monospace;
 }
 
 #patienttitle {
     text-align: center;
+    font-family: monospace;
 }
 
 a {
     color: #0083e8 !important;
+    font-family: monospace;
 }
 
 b,
@@ -157,6 +166,7 @@ samp {
 .btn-primary {
     background-color: #a30000 !important;
     border-color: #a30000 !important;
+    font-family: monospace;
 
 
 }
@@ -167,7 +177,8 @@ samp {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    font-family: monospace;
+
 
 }
 
@@ -221,6 +232,7 @@ button:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-family: monospace;
 
 }
 
@@ -275,10 +287,12 @@ span.psw {
     margin-right: auto;
     margin-left: auto;
     background-color: #151515;
+    font-family: monospace;
 }
 
 #head {
     background-color: #151515;
+    font-family: monospace;
 }
 
 #modbod {
@@ -307,6 +321,7 @@ span.psw {
     background-color: rgba(0, 0, 0, 0.4);
     /* Black w/ opacity */
     padding-top: 60px;
+    font-family: monospace;
 
 }
 
@@ -318,6 +333,7 @@ span.psw {
     border: 1px solid #000;
     width: 80%;
     /* Could be more or less, depending on screen size */
+    font-family: monospace;
 }
 
 /* The Close Button */
@@ -329,6 +345,7 @@ span.psw {
     color: #000;
     font-size: 35px;
     font-weight: bold;
+    font-family: monospace;
 }
 
 /* Close button on hover */
@@ -382,12 +399,14 @@ span.psw {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-family: monospace;
 }
 
 #stap {
     background-color: rgba(255, 255, 255, 0.68);
     border: 3px solid rgba(255, 255, 255, 1);
     color: #151515;
+    font-family: monospace;
 
 }
 
@@ -395,6 +414,7 @@ span.psw {
     background-color: rgba(255, 255, 255, 0.68);
     border: 3px solid rgba(255, 255, 255, 1);
     color: #151515;
+    font-family: monospace;
 
 }
 
@@ -402,6 +422,7 @@ span.psw {
     background-color: rgba(255, 255, 255, 0.68);
     border: 3px solid rgba(255, 255, 255, 1);
     color: #151515;
+    font-family: monospace;
 
 }
 
@@ -410,6 +431,7 @@ span.psw {
     background-color: rgba(255, 255, 255, 0.68);
     border: 3px solid rgba(255, 255, 255, 1);
     color: #151515;
+    font-family: monospace;
 
 }
 
@@ -418,6 +440,7 @@ span.psw {
     border: 3px solid rgba(255, 255, 255, 1);
     color: #151515;
     width: 100%;
+    font-family: monospace;
 
 
 }
@@ -425,7 +448,8 @@ span.psw {
 #pur {
     background-color: #000;
     padding-left: 100px;
-    padding-right:100px;
+    padding-right: 100px;
+    font-family: monospace;
 }
 
 #nicebutt {
@@ -436,6 +460,7 @@ span.psw {
     border: none;
     cursor: pointer;
     width: 100%;
+    font-family: monospace;
 }
 
 
@@ -445,7 +470,8 @@ span.psw {
     border: none;
     cursor: pointer;
     width: 100%;
-} 
+    font-family: monospace;
+}
 
 #placeholdercon {
     padding-top: 50px;
@@ -459,7 +485,7 @@ span.psw {
 
 
 #ahh {
-    background-color: #151515;
+    background-color: #000;
 }
 
 #red {
@@ -467,19 +493,39 @@ span.psw {
 }
 
 
-footer{
-    background-color: aliceblue;
+footer {
+    background-color: #a30000;
     padding: 10px;
     text-align: center;
     margin-right: auto;
+    font-family: monospace;
+    color: black;
     
+
 }
 
-#cruida{
-   display: block;
+#cruida {
+    display: block;
     margin-right: auto;
     margin-left: auto;
     max-height: 80%;
-    max-width: 80%; 
-    
+    max-width: 80%;
+
+}
+
+
+
+#congif {
+    padding: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+
+}
+
+
+
+#conglitch{
+    color: #a30000;
 }

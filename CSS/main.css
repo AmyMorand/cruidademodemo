@@ -89,12 +89,11 @@ h1 {
     height: auto;
     display: block;
     border-radius: 5px;
-    cursor: pointer;
     transition: 0.3s;
     padding: 10px;
     padding-left: 15px; 
     padding-right: 15px;
-    background-color: #acdddd;
+    background-color: rgba(172, 221, 221, 0);
 }
 
 #patientplaceholderimg1 {

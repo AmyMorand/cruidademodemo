@@ -3,7 +3,7 @@ html, body {
   height: 100%; }
 
 body {
-  font-family: 'Press Start 2P', cursive;
+  font-family: monospace;
   font-size: 16px;
   font-weight: bold;
   color: #a5a5ff;
@@ -45,7 +45,7 @@ h1 {
 .glitch {
   position: relative;
   margin: 0 auto;
-  background: #acdddd; }
+  background: #000; }
 
 .glitch::before,
 .glitch::after {
@@ -63,14 +63,14 @@ h1 {
   animation-duration: 4s;
   left: 4px;
   text-shadow: -1px 0 #ffa800;
-  background: #acdddd; }
+  background: #000; }
 
 .glitch::before {
   animation-name: glitch-animation-2;
   animation-duration: 6s;
   left: -4px;
   text-shadow: 1px 0 #00d8ff;
-  background: #acdddd; }
+  background: #000; }
 
 /* Expanded Animations */
 @keyframes glitch-animation {
