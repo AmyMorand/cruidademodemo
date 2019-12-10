@@ -1,0 +1,553 @@
+html {}
+
+.navbar {
+    overflow: hidden !important;
+    background-color: #000;
+    position: fixed !important;
+    z-index: 5 !important;
+    width: 100% !important;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #a30000 !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ff0000;
+    color: black !important;
+}
+
+body {
+    background-image: url(../gif/background.gif) !important;
+    background-repeat: repeat;
+    line-height: 1.5;
+    margin: 0 auto;
+    font-family: monospace;
+    color: black;
+}
+
+#headerbox {
+    padding-top: 75px;
+    background: url(../images/placeholderimages/headerboxplaceholder.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100% !important;
+    margin-bottom: 20px;
+    font-family: monospace;
+    color: black; 
+}
+
+
+#headerbox2 {
+    padding-top: 75px;
+    background: url(../images/backdark.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100% !important;
+    margin-bottom: 20px;
+    font-family: monospace;
+    color: black;
+}
+
+
+
+
+
+#cruidagif {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    color: black;
+}
+
+#toph2 {
+    text-align: center;
+    font-family: monospace;
+    color: black;
+}
+
+#aboutsection {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: monospace;
+    color: black;
+}
+
+#aboutusplaceholderimg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s;
+    padding: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#patientplaceholderimg1 {
+    max-width: 100% !important;
+    height: auto !important;
+    float: inherit !important;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#patientplaceholderimg2 {
+    max-width: 100% !important;
+    height: auto !important;
+    float: inherit !important;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#patientplaceholderimg3 {
+    max-width: 100% !important;
+    height: auto !important;
+    float: inherit !important;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#ourpatientssection {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    font-size: 17px !important;
+    font-family: monospace;
+    color: black;
+}
+
+#headers {
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+#patienttitle {
+    text-align: center;
+    font-family: monospace;
+}
+
+a {
+    color: #0083e8 !important;
+    font-family: monospace;
+}
+
+b,
+strong {
+    font-weight: 600 !important;
+}
+
+samp {
+    display: none !important;
+}
+
+.btn-primary {
+    background-color: #a30000 !important;
+    border-color: #a30000 !important;
+    font-family: monospace;
+
+
+}
+
+#transButt {
+    background-color: rgba(127, 220, 255, 0) !important;
+    border-color: rgba(127, 220, 255, 0) !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+
+
+}
+
+
+/* Bordered form */
+form {
+    border: 3px solid #a30000;
+    background-color: #151515;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    color: #a30000;
+    background-color: #151515;
+
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #a30000;
+    color: black;
+    padding: 1px 1px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #a30000;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+#pass {
+    color: #a30000;
+    font-family: monospace;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+
+
+}
+
+#head4 {
+    color: #a30000;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #151515;
+    font-family: monospace;
+}
+
+#head {
+    background-color: #151515;
+    font-family: monospace;
+}
+
+#modbod {
+    background-color: #151515;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    /* Full width */
+    max-height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+    font-family: monospace;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #000;
+    margin: 5px auto;
+    /* 15% from the top and centered */
+    border: 1px solid #000;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    font-family: monospace;
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: green;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.mod {
+    background-color: #000;
+}
+
+
+#blackplz {
+    background-color: #000;
+}
+
+
+#con {
+    background-color: #a30000;
+    padding: 25px;
+    border: 0px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+}
+
+#stap {
+    background-color: rgba(255, 255, 255, 0.68);
+    border: 3px solid rgba(255, 255, 255, 1);
+    color: #151515;
+    font-family: monospace;
+
+}
+
+#stap1 {
+    background-color: rgba(255, 255, 255, 0.68);
+    border: 3px solid rgba(255, 255, 255, 1);
+    color: #151515;
+    font-family: monospace;
+
+}
+
+#stap2 {
+    background-color: rgba(255, 255, 255, 0.68);
+    border: 3px solid rgba(255, 255, 255, 1);
+    color: #151515;
+    font-family: monospace;
+
+}
+
+
+#stap3 {
+    background-color: rgba(255, 255, 255, 0.68);
+    border: 3px solid rgba(255, 255, 255, 1);
+    color: #151515;
+    font-family: monospace;
+
+}
+
+#stap4 {
+    background-color: rgba(255, 255, 255, 0.68);
+    border: 3px solid rgba(255, 255, 255, 1);
+    color: #151515;
+    width: 100%;
+    font-family: monospace;
+
+
+}
+
+#pur {
+    background-color: #000;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: monospace;
+}
+
+#nicebutt {
+    background-color: #d7c8ff;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: monospace;
+}
+
+
+#nicebuttcon {
+    background-color: #acdddd;
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: monospace;
+}
+
+#placeholdercon {
+    padding-top: 50px;
+    color: #acdddd;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+}
+
+
+
+#ahh {
+    background-color: #000;
+}
+
+#red {
+    color: #a30000;
+}
+
+
+footer {
+    background-color: #a30000;
+    padding: 10px;
+    text-align: center;
+    margin-right: auto;
+    font-family: monospace;
+    color: black;
+    
+
+}
+
+#cruida {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 80%;
+    max-width: 80%;
+
+}
+
+
+
+#congif {
+    padding: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+
+}
+
+
+
+#conglitch{
+    color: #a30000;
+}
+
+
+#vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+
+.progressvids {
+    position: relative;
+    padding-bottom: 10%;
+    max-height: 100%;
+}
