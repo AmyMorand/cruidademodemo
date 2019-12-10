@@ -482,3 +482,21 @@ footer{
     max-width: 80%; 
     
 }
+
+
+#modback{
+    background-image: url(../images/back.jpg) !important;
+}
+
+
+#owo{
+    padding: 20px;
+}
+
+#nope{
+    color: #a30000;
+}
+
+#white{
+    color: #fff;
+}

@@ -96,7 +96,7 @@ h1 {
     display: block;
     border-radius: 5px;
     transition: 0.3s;
-    padding: 10px;
+    padding: 1px;
     padding-left: 15px;
     padding-right: 15px;
     background-color: rgba(0, 0, 0, 0);
@@ -207,7 +207,7 @@ input[type=password] {
 button {
     background-color: #a30000;
     color: black;
-    padding: 14px 20px;
+    padding: 1px 1px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
@@ -528,4 +528,19 @@ footer {
 
 #conglitch{
     color: #a30000;
+}
+
+
+#vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+
+.progressvids {
+    position: relative;
+    padding-bottom: 10%;
+    max-height: 100%;
 }
