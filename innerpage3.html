@@ -24,7 +24,7 @@
     <meta name="theme-color" content="#ffffff">
     <!-------------------FAVICON-------------------->
 
-    <script src="JS/inner3.js"></script>
+    <script src="JS/inner2.js"></script>
     <script type="text/javascript" src="JS/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="JS/bootstrap.js"></script>
 
@@ -70,12 +70,12 @@
 
                         </div>
 
-                        </div>
-
-                        </div>
                     </div>
 
                 </div>
+            </div>
+
+        </div>
 
     </header>
 
@@ -149,9 +149,42 @@
 
                                     <div class="progressvids">
 
-                                        <a href="innerpage4.html"><img class="img-fluid responsive" id="patientplaceholderimg1" src="gif/clairedead.gif" alt="placeholder img"></a>
 
 
+                                        <!-- The Modal -->
+
+                                        <!-- Button to open the modal login form -->
+                                        <button id="transButt" onclick="document.getElementById('id01').style.display='block'"><img class="img-fluid responsive" id="congif" src="images/clairedead.jpg" alt="placeholder img"></button>
+
+                                        <!-- The Modal -->
+                                        <div id="id01" class="modal">
+
+
+                                            <!-- Modal Content -->
+                                            <form id="blackplz" class="modal-content animate">
+
+                                                <div class="container">
+                                                    <tr>
+                                                        <p id="pass">ENTERY LEVEL 0 PASSWORD REQUIRED</p>
+                                                        <p>
+                                                            <input type="Password" size=25 name="pwd" placeholder="ENTER PASSWORD"></p>
+                                                    </tr>
+                                                    <!--<input type="password" placeholder="Enter Password" name="pwd" required>-->
+
+                                                    <button type="submit" onclick="return check(this.form)" value="Login"><a href="innerpage4.html">Sign In</a></button>
+                                                    <label>
+
+                                                    </label>
+                                                </div>
+
+                                                <div class="container" style="background-color:#151515">
+                                                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                                </div>
+                                            </form>
+
+
+
+                                        </div>
 
 
                                     </div>
@@ -226,7 +259,7 @@
 
                                     </p>
 
-                                    
+
 
                                 </div>
                             </div>
@@ -362,6 +395,4 @@
             </footer>
         </div>
     </section>
-</body>
-
-</html>
+</body></html>

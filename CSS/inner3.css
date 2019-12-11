@@ -214,7 +214,7 @@ input[type=password] {
 button {
     background-color: #a30000;
     color: black;
-    padding: 1px 1px;
+    padding: 10;
     margin: 8px 0;
     border: none;
     cursor: pointer;
