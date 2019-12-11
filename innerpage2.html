@@ -24,7 +24,7 @@
     <meta name="theme-color" content="#ffffff">
     <!-------------------FAVICON-------------------->
 
-    <script src="JS/inner.js"></script>
+    <script src="JS/inner2.js"></script>
     <script type="text/javascript" src="JS/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="JS/bootstrap.js"></script>
 
@@ -107,7 +107,50 @@
 
                 <div class="col">
 
-                    <img class="img-fluid responsive" id="aboutusplaceholderimg" src="gif/about-glitch2.gif" alt="placeholder img">
+                
+                    
+                    
+                                       <!-- The Modal -->
+
+        <!-- Button to open the modal login form -->
+        <button id="transButt" onclick="document.getElementById('id01').style.display='block'"><img class="img-fluid responsive" id="congif" src="gif/about-glitch2.gif" alt="placeholder img"></button>
+
+        <!-- The Modal -->
+        <div id="id01" class="modal">
+
+
+            <!-- Modal Content -->
+            <form id="blackplz" class="modal-content animate">
+
+                <div class="container">
+                    <tr>
+                        <p id="pass">ENTERY LEVEL 0 PASSWORD REQUIRED</p>
+                        <p>
+                            <input type="Password" size=25 name="pwd" placeholder="ENTER PASSWORD"></p>
+                    </tr>
+                    <!--<input type="password" placeholder="Enter Password" name="pwd" required>-->
+
+                    <button type="submit" onclick="return check(this.form)" value="Login"><a href="innerpage3.html">Sign In</a></button>
+                    <label>
+
+                    </label>
+                </div>
+
+                <div class="container" style="background-color:#151515">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                </div>
+            </form>
+
+
+
+        </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                 </div>
             </div>
 
@@ -368,40 +411,7 @@
 
 
 
-        <!-- The Modal -->
-
-        <!-- Button to open the modal login form -->
-        <button id="transButt" onclick="document.getElementById('id01').style.display='block'"><img class="img-fluid responsive" id="congif" src="gif/aaahhh.gif" alt="placeholder img"></button>
-
-        <!-- The Modal -->
-        <div id="id01" class="modal">
-
-
-            <!-- Modal Content -->
-            <form id="blackplz" class="modal-content animate">
-
-                <div class="container">
-                    <tr>
-                        <p id="pass">ENTERY LEVEL 0 PASSWORD REQUIRED</p>
-                        <p>
-                            <input type="Password" size=25 name="pwd" placeholder="ENTER PASSWORD"></p>
-                    </tr>
-                    <!--<input type="password" placeholder="Enter Password" name="pwd" required>-->
-
-                    <button type="submit" onclick="return check(this.form)" value="Login"><a href="innerpage2.html">Sign In</a></button>
-                    <label>
-
-                    </label>
-                </div>
-
-                <div class="container" style="background-color:#151515">
-                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                </div>
-            </form>
-
-
-
-        </div>
+       <img class="img-fluid responsive" id="congif" src="gif/aaahhh.gif" alt="placeholder img">
 
 
 

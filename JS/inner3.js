@@ -1,7 +1,7 @@
 function check(form)
 {
 
-if(form.pwd.value == "fep4Uju")
+if(form.pwd.value == "PASS")
 {
 	return true;
 }

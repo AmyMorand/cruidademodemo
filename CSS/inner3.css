@@ -149,11 +149,13 @@ h1 {
     text-align: center;
     font-size: 50px;
     font-family: monospace;
+    color: #a30000
 }
 
 #patienttitle {
     text-align: center;
     font-family: monospace;
+    color: #a30000
 }
 
 a {
